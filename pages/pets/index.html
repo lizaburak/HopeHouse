@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HopeHouse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="../main/index.html">
+                    <img src="../../assets/loggo.png" alt="logo" class="logo-img">
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item "><a href="../about/index.html">О приюте</a></li>
+                    <li class="nav-item nav-item-active"><a href="#">Наши питомцы</a></li>
+                    <li class="nav-item"><a href="../main/index.html#help">Помогите приюту</a></li>
+                    <li class="nav-item"><a href="../gallery/index.html">Галерея</a></li>
+                    <li class="nav-item"><a href="../main/index.html#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="container">
+            <section id="our-friends">
+                <h2 class="our-friends-title"> Наши друзья, которые <br> ищут дом</h2>
+                <div class="pets-cards">
+                    <!-- js -->
+                </div>
+                <div class="navigation">
+                    <button class="button navigation-button left-last disabled-button"
+                        data-disabled="true">&lt;&nbsp;&lt;</button>
+                    <button class="button navigation-button left disabled-button" data-disabled="true">&lt;</button>
+                    <button class="button navigation-button page active-page-button" value="1">1</button>
+                    <button class="button navigation-button right" data-disabled="false">&gt;</button>
+                    <button class="button navigation-button right-last" data-disabled="false">&gt;&nbsp;&gt;</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="logo">
+                <a href="../main/index.html">
+                    <img src="../../assets/loggo.png" alt="logo" class="logo-img">
+                </a>
+            </div>
+            <div class="footer-info">
+                <h3 class="footer-title">Мы ждем вашего визита!</h3>
+                <p class="footer-subtitle">Забирая одного из них – Вы сохраняете жизнь!</p>
+            </div>
+            <ul class="footer-contacts">
+                <li>
+                    <a href="https://www.instagram.com/doghopeorg/" class="footer-contacts-item">
+                        <svg class="footer-contacts-item-img_instagram">
+                            <use xlink:href="../../assets/svg/sprite.svg#Instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/doghopeorg/" class="footer-contacts-item">
+                        <svg class="footer-contacts-item-img_facebook">
+                            <use xlink:href="../../assets/svg/sprite.svg#Facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://vk.com/doghopeorg" class="footer-contacts-item">
+                        <svg class="footer-contacts-item-img_twitter">
+                            <use xlink:href="../../assets/svg/sprite.svg#Twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <button class="btn-up shown"></button>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
